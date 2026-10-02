@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Bannière anime développeur</title>
+  <desc id="desc">Illustration originale nocturne avec un développeur devant une interface lumineuse.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10132f"/>
+      <stop offset=".52" stop-color="#39226d"/>
+      <stop offset="1" stop-color="#101a3b"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff74c8"/>
+      <stop offset="1" stop-color="#79e7ff"/>
+    </linearGradient>
+    <radialGradient id="moon">
+      <stop offset="0" stop-color="#fff4dc"/>
+      <stop offset="1" stop-color="#ffc9ed"/>
+    </radialGradient>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#sky)"/>
+  <circle cx="1000" cy="100" r="66" fill="url(#moon)" opacity=".92"/>
+  <circle cx="1000" cy="100" r="88" fill="#ff9bd9" opacity=".10"/>
+  <path d="M0 315 120 278l82 30 104-85 102 75 99-43 88 60 90-105 95 72 104-55 100 72 116-58v179H0Z" fill="#171b48" opacity=".88"/>
+  <path d="M0 355 120 326l95 33 85-58 99 48 104-32 95 44 98-70 96 44 95-31 105 50 108-36v102H0Z" fill="#11152f"/>
+  <g fill="#ff9bd9" opacity=".85">
+    <circle cx="82" cy="76" r="2.5"/><circle cx="180" cy="130" r="2"/><circle cx="310" cy="65" r="2.5"/>
+    <circle cx="425" cy="112" r="2"/><circle cx="545" cy="55" r="2.5"/><circle cx="685" cy="105" r="2"/>
+    <circle cx="820" cy="54" r="2.5"/><circle cx="1120" cy="185" r="2"/><circle cx="745" cy="200" r="2"/>
+  </g>
+  <g opacity=".55" fill="#6b4caa">
+    <path d="M52 300h50v-58h35v58h35v-82h44v82h34v-46h47v46H52Z"/>
+    <path d="M850 310h38v-72h31v72h35v-102h43v102h26v-56h42v56h55v110H850Z"/>
+  </g>
+  <g transform="translate(710 148)">
+    <rect x="0" y="20" width="300" height="172" rx="15" fill="#11152f" stroke="#8c6be8" stroke-width="3"/>
+    <rect x="15" y="38" width="270" height="137" rx="7" fill="#1b2046"/>
+    <circle cx="22" cy="29" r="3" fill="#ff74c8"/><circle cx="34" cy="29" r="3" fill="#ffe08a"/><circle cx="46" cy="29" r="3" fill="#79e7ff"/>
+    <path d="M42 77h85m-85 22h150m-150 22h112m-112 22h168" stroke="url(#glow)" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+    <path d="m238 78 18 18-18 18m-27-36-18 18 18 18" fill="none" stroke="#ff9bd9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(548 162)">
+    <path d="M66 97c-33-19-40-66-13-91 24-22 76-17 91 17 12 28 1 63-22 79l29 30-88 8 20-36Z" fill="#f3b7c9"/>
+    <path d="M48 62c-20-46 7-83 52-81 27 1 49 17 54 43-18-8-31-18-38-31-16 26-41 42-68 45l5 24-15 0Z" fill="#17152f"/>
+    <path d="M72 91q9 7 18 0m20 0q9 7 18 0" fill="none" stroke="#613654" stroke-width="4" stroke-linecap="round"/>
+    <path d="M30 189c5-44 30-68 76-68s72 24 78 68" fill="#28265f" stroke="#8c6be8" stroke-width="3"/>
+    <path d="M59 139 30 189m107-50 48 50" stroke="#ff74c8" stroke-width="4" opacity=".85"/>
+  </g>
+  <g filter="url(#softGlow)">
+    <rect x="74" y="112" width="7" height="7" rx="2" fill="#79e7ff"/>
+    <rect x="660" y="80" width="6" height="6" rx="2" fill="#ff74c8"/>
+    <rect x="1090" y="255" width="8" height="8" rx="2" fill="#79e7ff"/>
+  </g>
+  <text x="82" y="205" fill="#fff4ff" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="5">DÉVELOPPEUR WEB · TOGO</text>
+  <text x="78" y="270" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="1">ABDOULAYE RIDWAN</text>
+  <text x="82" y="310" fill="#b9c8ff" font-family="Arial, sans-serif" font-size="22">Créer · apprendre · progresser ✦ React · JavaScript · Python</text>
+  <path d="M82 332h390" stroke="url(#glow)" stroke-width="4" stroke-linecap="round"/>
+</svg>
